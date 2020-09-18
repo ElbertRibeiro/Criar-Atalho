@@ -1,0 +1,11 @@
+strAppPath = "G:\DTI\CGAQ"
+
+Set objShell = CreateObject("WScript.Shell")
+objDesktop = objShell.SpecialFolders("Desktop")
+Set objLink = objShell.CreateShortcut(objDesktop & "\NomedoAtalho.lnk")
+
+objLink.TargetPath = strAppPath
+objLink.WindowStyle = 3
+objLink.Save
+
+WScript.Quit
