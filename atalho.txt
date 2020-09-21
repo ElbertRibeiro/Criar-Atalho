@@ -1,4 +1,4 @@
-strAppPath = "\\server\pasta\teste.exe"
+strAppPath = "\\x_oc_arq\Grupos\DTI\CGAQ\CGAQ-Atendimento\DOCUMENTAÇÃO\"
 
 Set objShell = CreateObject("WScript.Shell")
 objDesktop = objShell.SpecialFolders("Desktop")
